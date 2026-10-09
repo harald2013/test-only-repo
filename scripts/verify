@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+# scripts/ holds unmodified development-instructor templates; keep them out of ruff.
+uv run ruff check --extend-exclude scripts .
+uv run ruff format --check --extend-exclude scripts .
+uv run pytest
