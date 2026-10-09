@@ -3,7 +3,7 @@ from urllib.parse import urlparse
 
 HOST = "0.0.0.0"
 PORT = 8000
-BODY = b"Hello World Version 1"
+BODY = b"Hello World Version 2"
 HEALTH_PATH = "/health"
 HEALTH_BODY = b"ok"
 CONTENT_TYPE = "text/plain; charset=utf-8"
